@@ -1,0 +1,19 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: Helvetica;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 20px;
+  color: white;
+}
+
+#gallery { position: relative; }
+#gallery > img { position: absolute; left: 5%; top: 0; display: none; }
+#gallery > img:first-child { display: block; }

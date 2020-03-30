@@ -13,7 +13,11 @@ p {
   font-size: 20px;
   color: white;
 }
+audio{
+margin-top: 55%;
+margin-left: 40%;
+}
 
 #gallery { position: relative; }
-#gallery > img { position: absolute; left: 5%; top: 0; display: none; }
+#gallery > img { position: absolute; left: 8%; top: 0; display: none; }
 #gallery > img:first-child { display: block; }
